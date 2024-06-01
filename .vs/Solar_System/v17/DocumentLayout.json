@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lenovo\\GUI\\Solar_System\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|c:\\users\\lenovo\\gui\\solar_system\\assets\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|c:\\users\\lenovo\\gui\\proiect\\solar_system\\assets\\globaluihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|solutionrelative:assets\\globaluihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|c:\\users\\lenovo\\gui\\proiect\\solar_system\\assets\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|solutionrelative:assets\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|c:\\users\\lenovo\\gui\\solar_system\\assets\\planetrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\assets\\planetrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|solutionrelative:assets\\planetrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\GUI\\Solar_System\\assets\\asteroid field creator\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\assets\\asteroid field creator\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|solutionrelative:assets\\asteroid field creator\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\GUI\\Solar_System\\assets\\rocketfly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\assets\\rocketfly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46EEB933-AA5C-5BEA-57CE-05AC142814EA}|Assembly-CSharp.csproj|solutionrelative:assets\\rocketfly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,10 +35,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GlobalUIHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\Assets\\GlobalUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\GlobalUIHandler.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\Assets\\GlobalUIHandler.cs",
+              "RelativeToolTip": "Assets\\GlobalUIHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T18:53:06.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TimeController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\GUI\\Solar_System\\Assets\\TimeController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\Assets\\TimeController.cs",
               "RelativeDocumentMoniker": "Assets\\TimeController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\GUI\\Solar_System\\Assets\\TimeController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\Assets\\TimeController.cs",
               "RelativeToolTip": "Assets\\TimeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -43,24 +60,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlanetRotation.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\GUI\\Solar_System\\Assets\\PlanetRotation.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\Assets\\PlanetRotation.cs",
               "RelativeDocumentMoniker": "Assets\\PlanetRotation.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\GUI\\Solar_System\\Assets\\PlanetRotation.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\Assets\\PlanetRotation.cs",
               "RelativeToolTip": "Assets\\PlanetRotation.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAwBUAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T14:21:40.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T14:21:40.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "README.txt",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\GUI\\Solar_System\\Assets\\Asteroid Field Creator\\README.txt",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\Assets\\Asteroid Field Creator\\README.txt",
               "RelativeDocumentMoniker": "Assets\\Asteroid Field Creator\\README.txt",
-              "ToolTip": "C:\\Users\\Lenovo\\GUI\\Solar_System\\Assets\\Asteroid Field Creator\\README.txt",
+              "ToolTip": "C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\Assets\\Asteroid Field Creator\\README.txt",
               "RelativeToolTip": "Assets\\Asteroid Field Creator\\README.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
@@ -68,11 +84,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RocketFly.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\GUI\\Solar_System\\Assets\\RocketFly.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\Assets\\RocketFly.cs",
               "RelativeDocumentMoniker": "Assets\\RocketFly.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\GUI\\Solar_System\\Assets\\RocketFly.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\GUI\\Proiect\\Solar_System\\Assets\\RocketFly.cs",
               "RelativeToolTip": "Assets\\RocketFly.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
