@@ -4,6 +4,7 @@ using Normal.Realtime;
 public class FlyCamControl : MonoBehaviour
 {
     public float speed = 5.0f;
+    public Camera rocketCamera;
     private RealtimeView _realtimeView;
 
     private void Awake()
@@ -13,7 +14,7 @@ public class FlyCamControl : MonoBehaviour
 
     void Update()
     {
-        if (_realtimeView.isOwnedLocallySelf)
+        if (_realtimeView.isOwnedLocallySelf && rocketCamera.enabled)
         {
             float moveX = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
             float moveZ = Input.GetAxis("Vertical") * speed * Time.deltaTime;
