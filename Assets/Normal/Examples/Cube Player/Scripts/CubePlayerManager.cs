@@ -24,7 +24,7 @@ namespace Normal.Realtime.Examples {
                 preventOwnershipTakeover = true,    // Prevent other clients from calling RequestOwnership() on the root RealtimeView.
                 useInstance              = realtime // Use the instance of Realtime that fired the didConnectToRoom event.
             };
-            _localPlayer = Realtime.Instantiate(_prefab.name, Vector3.up, Quaternion.identity, options);
+            _localPlayer = Realtime.Instantiate(_prefab.name, new Vector3(10, 0, -10), Quaternion.identity, options);
             Debug.LogWarning("Instantiat");
         }
 

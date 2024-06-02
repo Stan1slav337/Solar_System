@@ -16,6 +16,8 @@ public class EllipticalOrbit : MonoBehaviour
     {
         // Store the initial position of the object relative to the pivot
         initialPosition = transform.position - sun.position;
+        semiMajorAxis = initialPosition.z;
+        semiMinorAxis = initialPosition.z * 0.95f;
 
         // Calculate the initial angle based on the initial position
         angle = Mathf.Atan2(initialPosition.z / semiMinorAxis, initialPosition.x / semiMajorAxis);
