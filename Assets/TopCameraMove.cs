@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class OrthographicCameraControl : MonoBehaviour
 {
-    public float speed = 5.0f;  // Speed of camera movement
+    public float speed = 5.0f;
 
-    public Camera myCamera;  // To hold a reference to the Camera component
+    public Camera myCamera; 
 
     void Start()
     {
-        myCamera = GetComponent<Camera>();  // Get the Camera component attached to the same GameObject
+        myCamera = GetComponent<Camera>(); 
     }
     
     void Update()

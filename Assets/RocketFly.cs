@@ -20,20 +20,17 @@ public class FlyCamControl : MonoBehaviour
             float moveZ = Input.GetAxis("Vertical") * speed * Time.deltaTime;
             float moveY = 0;
 
-            // Adding altitude control with additional keys
-            if (Input.GetKey(KeyCode.Space)) // Move Up
+            if (Input.GetKey(KeyCode.Space))
             {
                 moveY = speed * Time.deltaTime;
             }
-            if (Input.GetKey(KeyCode.LeftControl)) // Move Down
+            if (Input.GetKey(KeyCode.LeftControl))
             {
                 moveY = -speed * Time.deltaTime;
             }
 
-            // Apply movement
             transform.Translate(moveX, moveY, moveZ);
 
-            // Optional: Add rotation controls
             if (Input.GetKey(KeyCode.Q))
             {
                 transform.Rotate(Vector3.up, -90 * Time.deltaTime);

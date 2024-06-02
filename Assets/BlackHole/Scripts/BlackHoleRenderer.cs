@@ -16,14 +16,14 @@ public class BlackHoleRenderer : AutoBehaviour
 		}
 	}
 
-	[HideInInspector] public float ratio = 0.7f; // The height to the length ratio of the screen to display shader properly
-	[HideInInspector] public float radius = 0.5f; // The radius of the black hole measured in the same units as the other objects in the scene
+	[HideInInspector] public float ratio = 0.7f;
+	[HideInInspector] public float radius = 0.5f; 
 	[HideInInspector] public bool EinsteinRadiusCompliance;
-	[HideInInspector] public Transform BH; // The object whose position is taken as the position of the black hole
+	[HideInInspector] public Transform BH; 
 
 	private Shader shader;
 	private int outOfScreen;
-	private Material _material; // Material in which the shader is located
+	private Material _material;
 
 	protected virtual void OnDisable()
 	{
@@ -45,7 +45,6 @@ public class BlackHoleRenderer : AutoBehaviour
 		{
 			Camera currentCamera = Camera.current;
 
-			// Find the position of the black hole in screen coordinates
 			Vector3 screenPos = currentCamera.WorldToScreenPoint(BH.position);
 			Vector2 pos = new Vector2(screenPos.x / currentCamera.pixelWidth, screenPos.y / currentCamera.pixelHeight);
 			Vector3 lookDir = BH.position - currentCamera.transform.position;
@@ -57,13 +56,11 @@ public class BlackHoleRenderer : AutoBehaviour
 				1f
 				));
 
-			// Install all the required parameters for the shader
 			material.SetVector("_Position", new Vector2(pos.x, 1 - pos.y));
 			material.SetFloat("_Ratio", ratio);
 			material.SetFloat("_Rad", Mathf.Lerp(radius, 0, lerp));
 			material.SetFloat("_Distance", Vector3.Distance(BH.position, transform.position));
 
-			// Apply to the resulting image.
 			Graphics.Blit(source, destination, material);
 		}
 	}
