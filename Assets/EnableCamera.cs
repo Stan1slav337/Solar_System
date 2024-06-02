@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class EnableCamera : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         EnableFirstChildCamera();
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -18,10 +16,8 @@ public class EnableCamera : MonoBehaviour
 
     void EnableFirstChildCamera()
     {
-        // Get the first child object of type Camera
         Camera childCamera = GetComponentInChildren<Camera>();
 
-        // If a camera component is found, enable it
         if (childCamera != null)
         {
             childCamera.enabled = true;

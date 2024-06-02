@@ -8,7 +8,6 @@ public class GlobalUIHandler : MonoBehaviour
     [SerializeField] Slider slider;
     [SerializeField] GameObject earth;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (slider == null)
@@ -16,7 +15,6 @@ public class GlobalUIHandler : MonoBehaviour
         slider.onValueChanged.AddListener(delegate { ValueChangeCheck(); });
     }
 
-    // Update is called once per frame
     void Update()
     {
         

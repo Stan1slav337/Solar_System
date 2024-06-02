@@ -5,7 +5,7 @@ public class BlackHoleEffects : MonoBehaviour
     public float gravity = -10f;
     public float destroyRadius = 1.0f;
     public float visualEffectRadius = 5.0f;
-    public float transformRadius = 2.0f; // Distance at which objects start to transform into a ring
+    public float transformRadius = 2.0f;
     public Material lightBendingMaterial;
     private Material originalMaterial;
     public float distortionIntensity = 5.0f;
@@ -17,16 +17,12 @@ public class BlackHoleEffects : MonoBehaviour
             Vector3 direction = other.transform.position - transform.position;
             float distance = direction.magnitude;
  
-            // Gravitational pull
             other.attachedRigidbody.AddForce(direction.normalized * gravity * other.attachedRigidbody.mass);
  
-            // Visual effects logic
             ApplyVisualEffects(other, distance);
  
-            // Transformation to ring logic
             TransformToRing(other, distance);
  
-            // Destroy logic
             DestroyObject(other, distance);
         }
     }

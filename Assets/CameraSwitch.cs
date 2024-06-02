@@ -21,9 +21,8 @@ public class CameraSwitcher : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.T))  // Press 'C' to switch cameras
+        if (Input.GetKeyDown(KeyCode.T))
         {
-            // Toggle camera states ensuring one is always enabled
             if (mainCamera.enabled)
             {
                 mainCamera.enabled = false;
